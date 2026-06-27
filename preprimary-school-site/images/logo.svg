@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">School logo</title>
+  <desc>Jijamata-inspired emblem for village school</desc>
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9d06f"/>
+      <stop offset="100%" stop-color="#d18b2a"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f2e8"/>
+      <stop offset="100%" stop-color="#eaf3e7"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="112" height="112" rx="24" fill="url(#bgGrad)" stroke="#8bbf7f" stroke-width="4"/>
+  <circle cx="60" cy="64" r="28" fill="#f0c28b"/>
+  <path d="M40 68c0-12 8-22 20-22s20 10 20 22v10H40V68z" fill="#b16934" opacity="0.95"/>
+  <path d="M45 48c0-5 5-10 15-10s15 5 15 10v6H45v-6z" fill="#f6ddb6"/>
+  <path d="M40 64c2-14 16-20 20-20s18 6 20 20" fill="none" stroke="#7a4c2d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M60 27c-16 0-22 12-22 12s6 8 22 8 22-8 22-8-6-12-22-12z" fill="url(#goldGrad)"/>
+  <path d="M44 33c4 8 12 10 16 10s12-2 16-10" fill="#ec9a23" opacity="0.85"/>
+  <circle cx="50" cy="42" r="3" fill="#fff"/>
+  <circle cx="70" cy="42" r="3" fill="#fff"/>
+  <path d="M56 56c4 4 8 4 12 0" stroke="#7a4c2d" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M34 80c0 10 9 16 13 16h26c4 0 13-6 13-16" fill="#9c5b27" opacity="0.8"/>
+  <path d="M53 98c0 5 5 10 7 10s7-5 7-10" fill="#7a4c2d"/>
+</svg>
