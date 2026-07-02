@@ -2,9 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
+      "src": "**/*",
       "use": "@vercel/static"
     }
   ],
-  "cleanUrls": true
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/index.html"
+    }
+  ]
 }
