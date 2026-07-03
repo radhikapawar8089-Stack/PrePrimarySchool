@@ -761,6 +761,15 @@ a:hover {
   object-position: center;
 }
 
+/* Custom positioning for specific gallery images */
+.cover-flow-card img[src*="gallery22"] {
+  object-position: left center;
+}
+
+.cover-flow-card img[src*="gallery26"] {
+  object-position: right center;
+}
+
 .cover-flow-caption {
   position: absolute;
   left: 0;
