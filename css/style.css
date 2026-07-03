@@ -215,6 +215,7 @@ a:hover {
     position: absolute;
     left: 50%;
     bottom: -54px;
+    transform: translateX(-50%);
     z-index: 3;
     width: 148px;
     height: 148px;
