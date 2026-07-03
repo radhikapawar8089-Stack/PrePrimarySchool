@@ -69,10 +69,10 @@ a:hover {
 }
 
 .school-logo {
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
-  object-fit: contain;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
   background: #fff;
   padding: 6px;
   border: 1px solid var(--border);
