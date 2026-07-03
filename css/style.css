@@ -767,7 +767,7 @@ a:hover {
 }
 
 .cover-flow-card img[src*="gallery26"] {
-  object-position: center;
+  object-position: 70% center;
 }
 
 .cover-flow-caption {
