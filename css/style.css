@@ -190,26 +190,26 @@ a:hover {
 
 .unique-top {
   position: relative;
-  padding: 36px 24px 88px;
+  padding: 24px 24px 64px;
   background: #fff;
   text-align: center;
 }
 
 .unique-heading {
-  margin: 0 0 24px;
+  margin: 0 0 18px;
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   color: var(--text-dark);
 }
 
 .unique-banner {
   width: 100%;
-  max-width: 760px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 18px;
-    box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
-  }
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 18px;
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
+}
 
   .unique-child {
     position: absolute;
