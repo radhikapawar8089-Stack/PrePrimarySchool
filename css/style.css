@@ -737,6 +737,7 @@ a:hover {
   top: 50%;
   left: 50%;
   width: min(58%, 520px);
+  height: 100%;
   transform: translate(-50%, -50%);
   transition: transform 0.55s cubic-bezier(0.25, 0.8, 0.25, 1), filter 0.55s ease, opacity 0.55s ease;
   z-index: 1;
@@ -745,6 +746,7 @@ a:hover {
 
 .cover-flow-card {
   position: relative;
+  height: 100%;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 16px 36px rgba(37, 99, 235, 0.08);
@@ -753,10 +755,10 @@ a:hover {
 
 .cover-flow-card img {
   width: 100%;
-  height: clamp(280px, 42vw, 440px);
+  height: 100%;
   display: block;
-  object-fit: contain;
-  object-position: center top;
+  object-fit: cover;
+  object-position: center;
 }
 
 .cover-flow-caption {
