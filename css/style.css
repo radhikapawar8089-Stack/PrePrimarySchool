@@ -214,7 +214,7 @@ a:hover {
   .unique-child {
     position: absolute;
     left: 50%;
-    bottom: -54px;
+    bottom: -32px;
     transform: translateX(-50%);
     z-index: 3;
     width: 148px;
