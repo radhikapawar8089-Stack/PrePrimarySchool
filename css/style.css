@@ -630,10 +630,10 @@ a:hover {
 /* Why Choose Us Section */
 .why-choose-us {
   background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-  padding: 60px 24px 80px;
-  margin: 60px 0;
+  padding: 48px 24px 56px;
+  margin: 48px 0 0;
   position: relative;
-  min-height: 600px;
+  min-height: auto;
 }
 
 .features-grid {
@@ -647,7 +647,7 @@ a:hover {
 }
 
 .features-grid.bottom-features {
-  margin-top: 200px;
+  margin-top: 24px;
   position: relative;
   z-index: 2;
 }
@@ -1022,7 +1022,7 @@ a:hover {
   }
 
   .features-grid.bottom-features {
-    margin-top: 180px;
+    margin-top: 20px;
   }
 
   .featured-image-container {
@@ -1032,8 +1032,7 @@ a:hover {
   }
 
   .why-choose-us {
-    padding: 60px 20px 80px;
-    min-height: 550px;
+    padding: 48px 20px 56px;
   }
 }
 
@@ -1044,7 +1043,7 @@ a:hover {
   }
 
   .features-grid.bottom-features {
-    margin-top: 200px;
+    margin-top: 20px;
   }
 
   .featured-image-container {
@@ -1062,9 +1061,8 @@ a:hover {
   }
 
   .why-choose-us {
-    padding: 60px 16px 80px;
-    margin: 40px 0;
-    min-height: 480px;
+    padding: 44px 16px 52px;
+    margin: 32px 0 0;
   }
 }
 
@@ -1075,7 +1073,7 @@ a:hover {
   }
 
   .features-grid.bottom-features {
-    margin-top: 220px;
+    margin-top: 16px;
   }
 
   .featured-image-container {
@@ -1101,9 +1099,8 @@ a:hover {
   }
 
   .why-choose-us {
-    padding: 50px 12px 70px;
-    margin: 30px 0;
-    min-height: 420px;
+    padding: 40px 12px 48px;
+    margin: 24px 0 0;
   }
 }
 
