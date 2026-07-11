@@ -478,6 +478,120 @@ a:hover {
   color: var(--text-soft);
 }
 
+.home-blue-panel {
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0 48px;
+  background: linear-gradient(120deg, #071a33 0%, #0b3d5c 38%, #1d8eb8 72%, #5ec8f2 100%);
+}
+
+.blue-panel-shapes {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.blue-panel-shapes .shape {
+  position: absolute;
+  opacity: 0.22;
+}
+
+.shape-1 {
+  top: -8%;
+  left: -6%;
+  width: 42%;
+  height: 55%;
+  background: #0ea5e9;
+  clip-path: polygon(0 0, 100% 0, 55% 100%, 0 75%);
+}
+
+.shape-2 {
+  top: 18%;
+  right: -10%;
+  width: 38%;
+  height: 48%;
+  background: #0284c7;
+  clip-path: polygon(30% 0, 100% 20%, 80% 100%, 0 70%);
+}
+
+.shape-3 {
+  bottom: -12%;
+  left: 22%;
+  width: 34%;
+  height: 42%;
+  background: #38bdf8;
+  clip-path: polygon(15% 0, 100% 25%, 70% 100%, 0 80%);
+}
+
+.shape-4 {
+  top: 42%;
+  left: 48%;
+  width: 28%;
+  height: 36%;
+  background: #0369a1;
+  clip-path: polygon(0 15%, 85% 0, 100% 85%, 20% 100%);
+}
+
+.home-panel-section {
+  position: relative;
+  z-index: 1;
+}
+
+.panel-heading {
+  margin: 0 0 28px;
+  text-align: center;
+  color: #fff;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+
+.panel-heading::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 3px;
+  margin: 14px auto 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.home-blue-panel .feature-grid {
+  margin-top: 0;
+}
+
+.home-blue-panel .feature-card {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 10px 24px rgba(7, 26, 51, 0.18);
+  min-height: 170px;
+}
+
+.home-blue-panel .feature-card:nth-child(1),
+.home-blue-panel .feature-card:nth-child(4) {
+  background: #cdefd4;
+}
+
+.home-blue-panel .feature-card:nth-child(2),
+.home-blue-panel .feature-card:nth-child(5) {
+  background: #f3aa92;
+}
+
+.home-blue-panel .feature-card:nth-child(3),
+.home-blue-panel .feature-card:nth-child(6) {
+  background: #f8d57e;
+}
+
+.home-blue-panel .feature-card h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+  color: var(--text-dark);
+}
+
+.home-blue-panel .feature-card p {
+  margin: 10px 0 0;
+  color: var(--text-soft);
+}
+
 .age-groups .feature-grid {
   margin-top: 20px;
 }
