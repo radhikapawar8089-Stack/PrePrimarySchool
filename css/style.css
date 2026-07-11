@@ -629,7 +629,9 @@ a:hover {
 
 /* Why Choose Us Section */
 .why-choose-us {
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  background:
+    linear-gradient(rgba(7, 26, 51, 0.58), rgba(7, 26, 51, 0.58)),
+    url("../images/gallery2.jpeg") center center / cover no-repeat;
   padding: 48px 24px 56px;
   margin: 48px 0 0;
   position: relative;
